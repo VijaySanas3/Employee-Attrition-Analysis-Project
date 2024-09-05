@@ -44,26 +44,25 @@ The dataset includes multiple attributes about employees such as:
 - Years Since Last Promotion
 
 ## Data Preparation
-1. **Data Extraction**: The dataset was obtained from a provided link, with Order ID used as the primary key for sequential arrangement.
-2. **Data Cleaning**: Standardized inconsistent date formats, identified and removed duplicate values, and saved the cleaned data for further processing in Power BI.
-3. **Data Transformation**: Converted relevant columns into normalized format, auto-detected and corrected data types, merged queries, and sorted data. Created dimension tables with unique IDs.
-4. **Data Loading**: Loaded the transformed data into Power BI for visualization and analysis.
+1. **Data Extraction**: The dataset was obtained from a provided link, with EmployeeID used as the primary key for sequential arrangement.
+2. **Data Cleaning**: Missing values in columns like TotalWorkingYears, EnvironmentSatisfaction, JobSatisfaction, and WorkLifeBalance were handled by filling them with the median.
+3. **Data Transformation**: The dataset was normalized and divided into multiple tables (Employee Details, Job Details, Travel Details, Education Details) connected by a primary key, EmployeeID.
+4. **Data Loading**: Transformed data was loaded into Power BI for further analysis.
 
 ## Data Modeling
-The data model consists of:
-- **Amazon Sales Data**: The central fact table containing detailed transaction records.
-- **Country Data**: Contains country and region details, providing geographical insights into sales data.
-- **Order Priority Data**: Includes the classification of order priorities, allowing analysis by order priority.
-- **Product Data**: Provides details about the product type, enabling product-based analysis.
-- **Sales Channel Data**: Holds information about the sales channels, offering insights into sales performance by channel.
-- **Measure Table**: A special table used to store calculated measures used in the dashboard.
+The data model uses a star schema, with the Attrition Fact Table at the center, connected to dimension tables:
+- **Employee Details**
+- **Job Details**
+- **Education Details**
+- **Travel Details**
+- **Measure Table**
 
 ## Dashboard Overview
-The Power BI dashboard provides a comprehensive view of Amazon's sales performance, leveraging a variety of components to facilitate in-depth analysis and data-driven decision-making:
-- **KPIs**: Present essential metrics such as Total Revenue, Total Profit, Units Sold, Profit Margin, and Average Shipping Time.
-- **Slicers**: Enhance interactivity and allow users to filter data dynamically.
-- **Charts**: Visualize trends, profit distribution, geographic performance, and channel-specific insights.
-
+The Power BI dashboard provides an interactive overview of employee attrition with key metrics and visuals:
+- **KPIs**: Attrition Rate, Total Employees, Attrited Employees, Current Employees
+- **Slicers**: Gender, Marital Status, Department, Education Field
+- **Charts**: Attrition by Age, Gender, Marital Status, Job Role, Business Travel, Job Satisfaction, Work-Life Balance
+  
 ## Key Insights
 - A total of 513,000 units were sold, generating $137.35 million in revenue with a profit margin of 32.16%.
 - Cosmetics lead with $15 million in sales, followed by office supplies ($8 million) and household products ($7 million).
