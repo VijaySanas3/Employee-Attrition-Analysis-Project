@@ -1,10 +1,9 @@
 # Employee Attrition Analysis Project
+Analyzing Employee Attrition Data to Uncover key factors driving turnover at XYZ Company using Power BI. This project includes ETL processes, Data Modeling, and Insights to Help Improve Retention Strategies and Employee Engagement.
 
 ![Project Banner](ProjectBanner1.png)
 
 ![Project Banner](ProjectBanner2.png)
-
-Analyzing Employee Attrition Data to Uncover key factors driving turnover at XYZ Company using Power BI. This project includes ETL processes, Data Modeling, and Insights to Help Improve Retention Strategies and Employee Engagement.
 
 ## Table of Contents
 - [Introduction](#introduction)
