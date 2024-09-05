@@ -1,8 +1,10 @@
 # Employee Attrition Analysis Project
 
-![Project Banner](ProjectBanner.png)
+![Project Banner](ProjectBanner1.png)
 
-Analyzing Amazon Sales data from 2010 to 2017 using Excel and Power BI. This Project includes ETL Processes, Data Modeling, and Insights into Product and Regional Sales Trends.
+![Project Banner](ProjectBanner2.png)
+
+Analyzing Employee Attrition Data to Uncover key factors driving turnover at XYZ Company using Power BI. This project includes ETL processes, Data Modeling, and Insights to Help Improve Retention Strategies and Employee Engagement.
 
 ## Table of Contents
 - [Introduction](#introduction)
