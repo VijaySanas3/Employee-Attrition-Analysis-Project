@@ -21,15 +21,13 @@ Analyzing Employee Attrition Data to Uncover key factors driving turnover at XYZ
 - [License](#license)
 
 ## Introduction
-In an era of increasing competition and evolving market dynamics, understanding sales performance is crucial for strategic decision-making. This project focuses on analyzing Amazon's sales data using Excel and Power BI to uncover key trends, metrics, and relationships. By transforming raw data into actionable insights, this analysis aims to guide effective sales strategies, optimize distribution methods, and enhance overall profitability.
-
+Employee attrition is a significant challenge for companies looking to retain talent and maintain a productive workforce. This project focuses on analyzing employee attrition at XYZ Company to identify the main factors influencing turnover and provide actionable insights to improve retention strategies. Power BI were used to transform raw data into an interactive dashboard that HR teams can use for data-driven decision-making.
 ## Objective
-The primary objective of this project is to perform a comprehensive analysis of Amazon's sales data to derive actionable insights that can inform strategic decision-making. The specific goals are as follows:
-- **Analyze Sales Trends**: Examine monthly and yearly sales patterns to identify significant trends and seasonal variations.
-- **Key Metrics Identification**: Highlight crucial performance indicators such as Total Revenue, Total Profit, Units Sold, Profit Margin, and Average Shipping Time.
-- **Relationship Exploration**: Investigate the relationships between various attributes, including region, product, sales channel, and order priority.
-- **Strategic Recommendations**: Provide actionable recommendations based on the insights to improve sales strategies, optimize distribution methods, and increase profitability.
-- **Interactive Dashboard Creation**: Develop an interactive Power BI dashboard to visualize key insights and facilitate dynamic data exploration by stakeholders.
+The main objective of this project is to analyze employee data and provide insights to help XYZ Company reduce its 15% attrition rate. The specific goals are:
+- **Identify Attrition Factors**: Analyze key metrics like job satisfaction, work-life balance, and tenure to identify patterns contributing to attrition.
+- **Analyze Departmental and Role-Specific Trends**: Examine which departments and roles have the highest turnover rates.
+- **Provide Strategic Recommendations**: Offer actionable recommendations to improve employee retention.
+- **Interactive Dashboard**: Create a dynamic Power BI dashboard for visual exploration of insights.
 
 ## Data Overview
 The dataset used in this analysis consists of sales data from Amazon for the years 2010 to 2017. The data includes the following columns:
