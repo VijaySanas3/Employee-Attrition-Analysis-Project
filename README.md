@@ -88,7 +88,7 @@ To run this project locally, you need to have the following software installed:
 3. **Employee Attrition Analysis Report.pdf**: This PDF contains a summary report of the analysis.
 
 ### Steps to Analyze Data:
-- Open the Attrition Dataset.csv in Excel for data inspection and cleaning.
+- Open the Attrition Dataset.csv for data inspection and cleaning.
 - Load the dataset into Power BI for transformation and analysis.
 - Explore the interactive dashboard to gain insights into employee attrition.
 
