@@ -83,9 +83,9 @@ To run this project locally, you need to have the following software installed:
 - [Power BI](https://powerbi.microsoft.com/)
 
 ## Usage
-1. **Amazon Dataset.csv**: This CSV file contains the raw sales data.
-2. **Amazon Sales Analysis Dashboard.pbix**: Open this file in Power BI to view the interactive dashboard.
-3. **Amazon Sales Report.pdf**: This PDF contains a summary report of the analysis.
+1. **Attrition Data.csv**: This CSV file contains the raw sales data.
+2. **HR Attrition Analytics Dashboard.pbix**: Open this file in Power BI to view the interactive dashboard.
+3. **Employee Attrition Analysis Report.pdf**: This PDF contains a summary report of the analysis.
 
 ### Steps to Analyze Data:
 - Open the Attrition Dataset.csv in Excel for data inspection and cleaning.
@@ -95,11 +95,11 @@ To run this project locally, you need to have the following software installed:
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Open a Pull Request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes (git commit -m 'Add feature').
+- Push to the branch (git push origin feature-branch).
+- Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
