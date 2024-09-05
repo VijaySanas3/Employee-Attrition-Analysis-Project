@@ -30,20 +30,18 @@ The main objective of this project is to analyze employee data and provide insig
 - **Interactive Dashboard**: Create a dynamic Power BI dashboard for visual exploration of insights.
 
 ## Data Overview
-The dataset used in this analysis consists of sales data from Amazon for the years 2010 to 2017. The data includes the following columns:
-- Order ID
-- Order Date
-- Ship Date
-- Units Sold
-- Unit Price
-- Unit Cost
-- Total Revenue
-- Total Cost
-- Total Profit
-- Region
-- Product
-- Sales Channel
-- Order Priority
+The dataset includes multiple attributes about employees such as:
+- Employee ID
+- Age
+- Gender
+- Marital Status
+- Job Level
+- Monthly Income
+- Environment Satisfaction
+- Job Satisfaction
+- Work-Life Balance
+- Years at Company
+- Years Since Last Promotion
 
 ## Data Preparation
 1. **Data Extraction**: The dataset was obtained from a provided link, with Order ID used as the primary key for sequential arrangement.
